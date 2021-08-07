@@ -1,7 +1,9 @@
+import Capslock from "./Components/Capslock";
+
 const App = () => {
   return (
     <div>
-      <p>Welcome</p>
+      <Capslock>ola, como está?</Capslock>
     </div>
   );
 };
